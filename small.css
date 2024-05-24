@@ -1,0 +1,67 @@
+@media(min-width: 425px) and (max-width: 500px) {
+
+    #timezone h2 {
+        font-size: 16px;
+    }
+
+    select {
+        font-size: 15px;
+        /* Tamanho da fonte */
+        padding: 4px;
+        /* Espaçamento interno */
+        width: auto;
+        /* Redimensionar automaticamente de acordo com o texto */
+        max-width: 100%;
+        /* Largura máxima */
+    }
+
+    #clockContainer {
+        position: relative;
+        margin: auto;
+        height: 70vw;
+        /*to make the height and width responsive*/
+        width: 70vw;
+        background-size: 100%;
+    }
+
+    .clock-digital {
+        font-size: 30px;
+        text-align: center;
+        border-radius: 15px;
+    }
+}
+
+@media(min-width: 501px) and (max-width: 767px) {
+
+    #timezone h2 {
+        font-size: 16px;
+    }
+
+    select {
+        font-size: 15px;
+        /* Tamanho da fonte */
+        padding: 4px;
+        /* Espaçamento interno */
+        width: auto;
+        /* Redimensionar automaticamente de acordo com o texto */
+        max-width: 100%;
+        /* Largura máxima */
+    }
+
+    #clockContainer {
+        position: relative;
+        margin: auto;
+        height: 50vw;
+        /*to make the height and width responsive*/
+        width: 50vw;
+        background: url(../assets/clock.png) no-repeat;
+        /*setting our background image*/
+        background-size: 100%;
+    }
+
+    .clock-digital {
+        font-size: 30px;
+        text-align: center;
+        border-radius: 15px;
+    }
+}

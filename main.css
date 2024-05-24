@@ -1,0 +1,125 @@
+#language-selector {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 9999;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Estilo para a lista suspensa de idiomas */
+#language-selector select {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#timezone {
+    display: flex;
+    /* Usar flexbox para alinhar os itens */
+    flex-direction: row;
+    /* Alinhar os itens verticalmente */
+    align-items: center;
+    /* Centralizar os itens horizontalmente */
+    justify-content: center;
+    /* Centralizar horizontalmente */
+    padding-bottom: 15px;
+    /* Distância para o relógio */
+    height: 10vh;
+    /* Definir altura total da viewport */
+}
+
+#timezone h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    color: #333;
+    text-transform: uppercase;
+    padding-right: 10px;
+}
+
+select {
+    font-size: 18px;
+    /* Tamanho da fonte */
+    padding: 10px 7px;
+    /* Espaçamento interno */
+    border: 1px solid #2e2e2e;
+    /* Borda */
+    border-radius: 8px;
+    /* Borda arredondada */
+    /* Remover estilo padrão do navegador */
+    background-color: #f8f8f8;
+    /* Cor de fundo */
+    color: #333;
+    /* Cor do texto */
+    width: auto;
+    /* Redimensionar automaticamente de acordo com o texto */
+    max-width: 100%;
+    /* Largura máxima */
+}
+
+#clockContainer {
+    position: relative;
+    margin: auto;
+    height: 32vw;
+    /*to make the height and width responsive*/
+    width: 32vw;
+    background: url(../assets/clock1.png) no-repeat;
+    /*setting our background image*/
+    background-size: 100%;
+}
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour {
+    width: 1.8%;
+    height: 25%;
+    top: 24.75%;
+    left: 48.85%;
+    opacity: 0.8;
+}
+
+#minute {
+    width: 1.6%;
+    height: 30%;
+    top: 19.7%;
+    left: 48.75%;
+    opacity: 0.8;
+}
+
+#second {
+    width: 1%;
+    height: 40%;
+    top: 9.5%;
+    left: 49.5%;
+    opacity: 0.8;
+    background: red;
+}
+
+.clock-digital {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 15px;
+}

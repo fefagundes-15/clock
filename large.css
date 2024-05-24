@@ -1,0 +1,37 @@
+@media(min-width: 1024px) and (max-width: 2200px) {
+
+    #timezone h2 {
+        font-size: 28px;
+    }
+
+    select {
+        font-size: 25px;
+        /* Tamanho da fonte */
+        padding: 10px 8px;
+        /* Espaçamento interno */
+        width: auto;
+        /* Redimensionar automaticamente de acordo com o texto */
+        max-width: 100%;
+        /* Largura máxima */
+    }
+
+    #clockContainer {
+        position: relative;
+        margin: auto;
+        height: 30vw;
+        /*to make the height and width responsive*/
+        width: 30vw;
+        background-size: 100%;
+    }
+
+    .clock-digital {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 36px;
+        text-align: center;
+        margin-top: 20px;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        border-radius: 15px;
+    }
+}

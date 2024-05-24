@@ -1,0 +1,32 @@
+@media(max-width: 424px) {
+
+    #timezone h2 {
+        font-size: 16px;
+    }
+
+    select {
+        font-size: 14px;
+        /* Tamanho da fonte */
+        padding: 4px;
+        /* Espaçamento interno */
+        width: auto;
+        /* Redimensionar automaticamente de acordo com o texto */
+        max-width: 100%;
+        /* Largura máxima */
+    }
+
+    #clockContainer {
+        position: relative;
+        margin: auto;
+        height: 80vw;
+        /*to make the height and width responsive*/
+        width: 80vw;
+        background-size: 100%;
+    }
+
+    .clock-digital {
+        font-size: 28px;
+        text-align: center;
+        border-radius: 15px;
+    }
+}

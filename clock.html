@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/xx-large.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/xx-small.css">
+
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="language-selector">
+        <label for="language">Language:</label>
+        <select id="language">
+            <option value="en">English</option>
+            <option value="pt">Português</option>
+            <option value="es">Español</option>
+        </select>
+    </div>
+    <div id="timezone">
+        <h2 id="selectTimeZone"></h2>
+        <!-- Lista suspensa -->
+        <select id="fusosHorarios" onchange="atualizarHora()">
+            <option value="Pacific/Midway">Midway (GMT-11:00)</option>
+            <option value="Pacific/Tahiti">Tahiti (GMT-10:00)</option>
+            <option value="America/Anchorage">Anchorage (GMT-8:00)</option>
+            <option value="America/Los_Angeles">Los Angeles (GMT-7:00)</option>
+            <option value="America/Denver">Denver (GMT-6:00)</option>
+            <option value="America/Chicago">Chicago (GMT-5:00)</option>
+            <option value="America/New_York">Nova Iorque (GMT-4:00)</option>
+            <option value="America/Sao_Paulo">São Paulo (GMT-3:00)</option>
+            <option value="America/Buenos_Aires">Buenos Aires (GMT-3:00)</option>
+            <option value="America/Santiago">Santiago (GMT-3:00)</option>
+            <option value="Atlantic/Azores">Açores (GMT-1:00)</option>
+            <option value="Europe/London">Londres (GMT+0:00)</option>
+            <option value="Europe/Paris">Paris (GMT+1:00)</option>
+            <option value="Europe/Berlin">Berlim (GMT+1:00)</option>
+            <option value="Europe/Moscow">Moscou (GMT+3:00)</option>
+            <option value="Asia/Dubai">Dubai (GMT+4:00)</option>
+            <option value="Asia/Kolkata">Mumbai (GMT+5:30)</option>
+            <option value="Asia/Bangkok">Bangkok (GMT+7:00)</option>
+            <option value="Asia/Singapore">Singapura (GMT+8:00)</option>
+            <option value="Asia/Tokyo">Tóquio (GMT+9:00)</option>
+            <option value="Australia/Sydney">Sydney (GMT+10:00)</option>
+            <option value="Pacific/Auckland">Auckland (GMT+12:00)</option>
+            <!-- Adicione mais opções conforme necessário -->
+        </select>
+    </div>
+    <div id="clockContainer">
+        <div id="hour">
+            <!-- <img src="assets/hour.png" alt=""> -->
+        </div>
+
+        <div id="minute">
+            <!-- <img src="assets/hour.png" alt=""> -->
+        </div>
+
+        <div id="second"></div>
+    </div>
+
+    <footer class="clock-digital" id="digital"></footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
