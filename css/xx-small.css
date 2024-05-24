@@ -1,7 +1,13 @@
 @media(max-width: 424px) {
 
+    #timezone {
+        margin-top: 60px;
+    }
+
     #timezone h2 {
+        font-family: 'Courier New', Courier, monospace;
         font-size: 16px;
+        text-align: center;
     }
 
     select {
@@ -25,8 +31,8 @@
     }
 
     .clock-digital {
-        font-size: 28px;
+        font-size: 17px;
         text-align: center;
-        border-radius: 15px;
+        border-radius: 0px;
     }
 }
