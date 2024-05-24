@@ -33,9 +33,9 @@
     #clockContainer {
         position: relative;
         margin: auto;
-        height: 30vw;
+        height: 27vw;
         /*to make the height and width responsive*/
-        width: 30vw;
+        width: 27vw;
         background-size: 100%;
     }
 
