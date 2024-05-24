@@ -2,27 +2,27 @@
 
     #language-selector {
         padding: 8px;
-        font-size: 26px;
+        font-size: 22px;
         cursor: pointer;
     }
 
     /* Estilo para a lista suspensa de idiomas */
     #language-selector select {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     #timezone {
-        margin-top: 75px;
+        margin-top: 65px;
     }
 
     #timezone h2 {
-        font-size: 32px;
+        font-size: 28px;
     }
 
     select {
-        font-size: 25px;
+        font-size: 22px;
         /* Tamanho da fonte */
-        padding: 10px 8px;
+        padding: 7px;
         /* Espaçamento interno */
         width: auto;
         /* Redimensionar automaticamente de acordo com o texto */
@@ -33,15 +33,15 @@
     #clockContainer {
         position: relative;
         margin: auto;
-        height: 27vw;
+        height: 28vw;
         /*to make the height and width responsive*/
-        width: 27vw;
+        width: 28vw;
         background-size: 100%;
     }
 
     .clock-digital {
         font-family: 'Times New Roman', Times, serif;
-        font-size: 36px;
+        font-size: 34px;
         text-align: center;
         margin-top: 20px;
         background-color: #333;
