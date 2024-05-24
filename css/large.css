@@ -1,7 +1,22 @@
-@media(min-width: 1024px) and (max-width: 2200px) {
+@media(min-width: 1024px) and (max-width: 2000px) {
+
+    #language-selector {
+        padding: 8px;
+        font-size: 26px;
+        cursor: pointer;
+    }
+
+    /* Estilo para a lista suspensa de idiomas */
+    #language-selector select {
+        font-size: 22px;
+    }
+
+    #timezone {
+        margin-top: 75px;
+    }
 
     #timezone h2 {
-        font-size: 28px;
+        font-size: 32px;
     }
 
     select {
