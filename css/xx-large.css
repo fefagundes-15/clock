@@ -1,7 +1,23 @@
-@media(min-width: 2201px) {
+@media(min-width: 2001px) {
+
+    #language-selector {
+        padding: 10px;
+        font-size: 50px;
+        cursor: pointer;
+    }
+
+    /* Estilo para a lista suspensa de idiomas */
+    #language-selector select {
+        font-size: 40px;
+    }
+
+    #timezone {
+        margin-top: 130px;
+        margin-bottom: 20px;
+    }
 
     #timezone h2 {
-        font-size: 70px;
+        font-size: 55px;
     }
 
     select {
@@ -18,9 +34,9 @@
     #clockContainer {
         position: relative;
         margin: auto;
-        height: 40vw;
+        height: 30vw;
         /*to make the height and width responsive*/
-        width: 40vw;
+        width: 30vw;
         background-size: 100%;
     }
 
